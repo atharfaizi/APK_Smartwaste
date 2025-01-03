@@ -37,15 +37,19 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Username"
-        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#4d4d4d"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_background"
         android:padding="12dp"
         android:layout_marginBottom="16dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="48dp"
+        android:textColorHint="#4d4d4d"
+        android:textColor="@color/black"
         android:hint="Email"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/edit_text_background"
         android:padding="12dp"
         android:layout_marginBottom="16dp"/>
 
@@ -53,7 +57,9 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Password"
-        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#4d4d4d"
+        android:textColor="@color/black"
+        android:background="@drawable/edit_text_background"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="textPassword"/>
@@ -62,7 +68,9 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="Re-enter password"
-        android:background="@drawable/rounded_edittext"
+        android:background="@drawable/edit_text_background"
+        android:textColorHint="#4d4d4d"
+        android:textColor="@color/black"
         android:padding="12dp"
         android:layout_marginBottom="16dp"
         android:inputType="textPassword"/>
@@ -77,12 +85,14 @@
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:buttonTint="@color/black"
             android:id="@+id/terms_checkbox"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="I accept the terms and conditions"
+            android:layout_marginHorizontal="8dp"
             android:textColor="#6B7280"/>
     </LinearLayout>
 
