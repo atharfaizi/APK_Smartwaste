@@ -58,8 +58,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/edit_text_background"
-            android:hint="Password"
-            android:inputType="textPassword"
+            android:hint="Username"
+            android:textColorHint="#4d4d4d"
+            android:textColor="@color/black"
             android:padding="12dp" />
 
         <EditText
@@ -67,8 +68,10 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:background="@drawable/edit_text_background"
-            android:hint="Re-enter password"
+            android:hint="password"
             android:inputType="textPassword"
+            android:textColorHint="#4d4d4d"
+            android:textColor="@color/black"
             android:padding="12dp" />
 
         <Button
@@ -79,6 +82,7 @@
             android:padding="12dp"
             android:text="Login"
             android:textColor="#FFFFFF"
+            android:id="@+id/btn_LoginSubmit"
             android:textStyle="bold" />
 
         <TextView

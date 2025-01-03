@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity
-            android:name=".Home_Admin_Page"
+            android:name=".CreateActivity"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".edit_text_background"-->
-<!--            android:exported="false" /> &lt;!&ndash; Aktivitas utama (Launcher) &ndash;&gt;-->
+        <activity
+            android:name=".Home_Admin_Page"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".edit_text_background" -->
+        <!-- android:exported="false" /> &lt;!&ndash; Aktivitas utama (Launcher) &ndash;&gt; -->
         <activity
             android:name=".MainActivity"
             android:exported="true"> <!-- Set exported ke true untuk aktivitas launcher -->
